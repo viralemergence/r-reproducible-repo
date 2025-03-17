@@ -4,7 +4,7 @@ Template for reproducible R projects.
 ## Includes
 - targets
 - renv
-- github actions
+- .github/workflow
 - .env
 - /R
 - /Scripts
