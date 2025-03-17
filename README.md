@@ -42,3 +42,12 @@ git clone https://github.com/user-name/repo-name.git
 - Use an R formatter like [`{air}`](https://www.tidyverse.org/blog/2025/02/air/) to  
 keep your code tidy or use built in IDE functions e.g. `cmd + shift + i` in rstudio.
 - Keep all your packages in `packages.R`
+
+
+## Running Github Actions locally (e.g. not wasting time/server minutes)
+
+The test-targets.yml file includes conditions for running github actions locally using [ACT](https://nektosact.com/introduction.html).
+
+
+
+
