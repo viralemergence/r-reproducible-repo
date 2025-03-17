@@ -15,7 +15,7 @@ options(
   repos = c(PPM = "https://packagemanager.posit.co/cran/latest",
             CRAN = "https://cran.rstudio.com/"),
   renv.config.auto.snapshot = FALSE, ## Attempt to keep renv.lock updated automatically
-  renv.config.ppm.enabled = TRUE, ## Use RStudio Package manager for pre-built package binaries
+  renv.config.ppm.enabled = TRUE, ## Use Posit Package manager for pre-built package binaries
   renv.config.install.shortcuts = TRUE, ## Use the existing local library to fetch copies of packages for renv
   renv.config.cache.enabled = TRUE   ## Use the renv build cache to speed up install times
 )
