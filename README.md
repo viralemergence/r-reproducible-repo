@@ -1,2 +1,2 @@
-# r-reproducilbe-repo
+# r-reproducible-repo
 Template for reproducible R projects. 
