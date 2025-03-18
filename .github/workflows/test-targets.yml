@@ -54,13 +54,13 @@ jobs:
           renv::restore()
         shell: Rscript {0}
 
-      - name: Run targets workflow to deploy, archive and email reports
+      - name: Run targets workflow in CI
         if: ${{ !env.ACT }}
         run: |
           targets::tar_make()
         shell: Rscript {0}
         
-      - name: Run targets workflow without deploy and archive of reports (local with ACT)
+      - name: Run targets workflow local with ACT
         if: ${{ env.ACT }}
         run: |
           targets::tar_make()
