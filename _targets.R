@@ -18,7 +18,8 @@ example_tar_plan <- tar_plan(
 
 example_tar_plan2 <- tar_plan(
   
-  # tar_target(data, get_data(arg)) 
+   tar_target(data, get_data(arg)),
+   tar_target(data_cleaned, clean_data(data))
   
 )
 
